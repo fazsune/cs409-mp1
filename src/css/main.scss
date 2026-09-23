@@ -133,6 +133,35 @@ body {
 	}
 	img {
 		width: 400px;
+		cursor: pointer;
+	}
+}
+
+.modal-bg {
+	display: none; // default, change by js
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	.modal {
+		background: whitesmoke;
+		width: 400px;
+		margin: 100px auto;
+		padding: 20px;
+		position: relative;
+		button {
+			all: unset;
+			cursor: pointer;
+			position: absolute;
+			right: 12px;
+			top: 8px;
+			font-size: 24px;
+		}
+		video {
+			width: 80%;
+		}
 	}
 }
 

@@ -15,3 +15,13 @@ window.addEventListener("scroll", () => {
 		});
 	}
 });
+
+const vid_open = document.getElementById("video-open");
+const vid_close = document.getElementById("video-close");
+const modal_bg = document.getElementById("modal");
+vid_open.addEventListener("click", () => {
+	modal_bg.style.display = "block";
+});
+vid_close.addEventListener("click", () => {
+	modal_bg.style.display = "none";
+});
